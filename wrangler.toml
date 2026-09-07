@@ -1,0 +1,16 @@
+name = "kinoplyonka-bot"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+# D1 database binding.
+# After creating the database with `wrangler d1 create kinoplyonka-db`,
+# paste the returned database_id below.
+[[d1_databases]]
+binding = "DB"
+database_name = "kinoplyonka-db"
+database_id = "PASTE_YOUR_DATABASE_ID_HERE"
+
+# Secrets (BOT_TOKEN, CHANNEL_ID, CHANNEL_URL, ADMIN_IDS, WEBHOOK_SECRET)
+# are NOT defined here. They are set with `wrangler secret put <NAME>`
+# or in the Cloudflare dashboard, and are documented in DEPLOYMENT_RU.md.
