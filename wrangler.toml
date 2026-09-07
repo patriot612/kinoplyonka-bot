@@ -9,7 +9,7 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "DB"
 database_name = "kinoplyonka-db"
-database_id = "PASTE_YOUR_DATABASE_ID_HERE"
+database_id = "b54e0743-fae7-49c0-98b0-3cef658df743"
 
 # Secrets (BOT_TOKEN, CHANNEL_ID, CHANNEL_URL, ADMIN_IDS, WEBHOOK_SECRET)
 # are NOT defined here. They are set with `wrangler secret put <NAME>`
